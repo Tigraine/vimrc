@@ -3,6 +3,12 @@ h1. About
 Since I now run vim/mvim as my primary IDE for Ruby and JavaScript it really became a chore to sync up plugins and settings between 3 different machines. 
 This is my attempt at creating the perfect vim setup for my needs. 
 
+h2. Installation
+
+Simply symlink the vimrv inside the repository to your ~/.vimrc
+
+@ln -s ~/.vim/vimrc ~/.vimrc@
+
 h2. Send me stuff!
 
 If you know of a plugin or script that I should check out please drop me a line..
