@@ -22,5 +22,10 @@ set scrolloff=3
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
-colorscheme vibrantink
+
+syntax enable
+set background=dark
+
+colorscheme solarized
+
 :set guifont=Monaco
