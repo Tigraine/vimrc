@@ -11,11 +11,12 @@ set ts=4
 set sw=4
 "set number
 
-"let mapleader = ","
+let mapleader = ","
 set history=1000
 set wildmode=list:longest
 set ignorecase
 set smartcase
+set ruler
 
 set scrolloff=3
 
@@ -28,4 +29,10 @@ set background=dark
 
 colorscheme vibrantink
 
-:set guifont=Monaco
+:set guifont=Monaco:h12
+
+if has("gui_macvim")
+	macm File.New\ Tab key=<nop>
+	nmap <D-t> :CommandT<CR>
+endif
+
