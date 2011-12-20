@@ -26,6 +26,6 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 syntax enable
 set background=dark
 
-colorscheme solarized
+colorscheme vibrantink
 
 :set guifont=Monaco
