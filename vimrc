@@ -31,8 +31,9 @@ colorscheme vibrantink
 
 :set guifont=Monaco:h12
 
-if has("gui_macvim")
-	macm File.New\ Tab key=<nop>
-	nmap <D-t> :CommandT<CR>
-endif
+"if has("gui_macvim")
+"	macm File.New\ Tab key=<nop>
+"	nmap <D-t> :CommandT<CR>
+"endif
 
+map <leader>c :s/^/#<CR>
