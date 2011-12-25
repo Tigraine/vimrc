@@ -37,3 +37,6 @@ colorscheme vibrantink
 "endif
 
 map <leader>c :s/^/#<CR>
+
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
