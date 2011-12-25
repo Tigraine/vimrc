@@ -4,6 +4,7 @@
 export GIT_PS1_SHOWDIRTYSTATE=''
 export GIT_PS1_SHOWUNTRACKEDFILES=''
 source ~/.vim/git-completion.bash
+source ~/.vim/rails.bash
 
 #Promt Stuff
 BLACK=$(tput setaf 0)
