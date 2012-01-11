@@ -11,6 +11,8 @@ set ts=4
 set sw=4
 "set number
 
+let $JS_CMD='node'
+
 let mapleader = ","
 set history=1000
 set wildmode=list:longest
