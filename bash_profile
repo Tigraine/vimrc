@@ -23,17 +23,7 @@ BLINK=$(tput blink)
 REVERSE=$(tput smso)
 UNDERLINE=$(tput smul)
 
-# return the prompt prefix for the second line
-function set_prefix {
-	BRANCH=`__git_ps1`
-	if [[ -z $BRANCH ]]; then
-		echo "${NORMAL}o"
-	else
-		echo "${UNDERLINE}+"
-	fi
-}
-
-PS1='${MAGENTA}\u${WHITE} in ${GREEN}\w${WHITE}${CYAN}`__git_ps1 " ${WHITE}on ${CYAN}%s"`${WHITE}\r\n`set_prefix`${NORMAL} '
+PS1='${MAGENTA}\u\[${WHITE}\] in \[${GREEN}\]\w\[${WHITE}${CYAN}\]`__git_ps1 " \[${WHITE}\]on \[${CYAN}\]%s"`\[${WHITE}\]\r\no\[${NORMAL}\] '
 
 if [ -e /usr/share/terminfo/x/xterm-256color ]; then
 	export TERM='xterm-256color'
