@@ -25,9 +25,9 @@ UNDERLINE=$(tput smul)
 
 PS1='\[${MAGENTA}\]\u\[${WHITE}\]@\[${LIME_YELLOW}\]\h\[${WHITE}\] in \[${GREEN}\]\w\[${WHITE}${CYAN}\]`__git_ps1 " \[${WHITE}\]on \[${CYAN}\]%s"`\[${WHITE}\]\r\no\[${NORMAL}\] '
 
-if [ -e /usr/share/terminfo/x/xterm-256color ]; then
-	export TERM='xterm-256color'
-else
-	export TERM='xterm-color'
-fi
+#if [ -e /usr/share/terminfo/x/xterm-256color ]; then
+#	export TERM='xterm-256color'
+#else
+#	export TERM='xterm-color'
+#fi
 
