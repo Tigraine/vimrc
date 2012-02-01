@@ -42,5 +42,5 @@ map <leader>c :s/^/#<CR>
 
 let g:Tex_ViewRule_pdf = 'Preview'
 
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
+"autocmd VimEnter * NERDTree
+"autocmd VimEnter * wincmd p
