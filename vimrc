@@ -19,6 +19,10 @@ set wildmode=list:longest
 set ignorecase
 set smartcase
 set ruler
+set autoindent
+set showmatch
+set incsearch
+set hls
 
 set scrolloff=3
 
@@ -44,3 +48,7 @@ let g:Tex_ViewRule_pdf = 'Preview'
 
 "autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
+
+:set cursorline
+
+:nnoremap <CR> :nohlsearch<cr>
