@@ -7,8 +7,8 @@ call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
 
 "general tabstopp stuff
-set ts=4
-set sw=4
+set ts=2
+set sw=2
 "set number
 
 let $JS_CMD='node'
