@@ -52,3 +52,7 @@ let g:Tex_ViewRule_pdf = 'Preview'
 :set cursorline
 
 :nnoremap <CR> :nohlsearch<cr>
+
+:imap <c-j> <%=
+:imap <c-k> <space>%>
+:imap <c-l> <space>=><space>
