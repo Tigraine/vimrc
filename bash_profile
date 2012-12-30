@@ -6,6 +6,8 @@ export GIT_PS1_SHOWUNTRACKEDFILES=''
 source ~/.vim/git-completion.bash
 source ~/.vim/rails.bash
 
+PATH=$PATH\:/usr/local/texlive/2012/bin/universal-darwin:/usr/local/minizinc-1.6/bin ; export PATH
+
 #Promt Stuff
 BLACK=$(tput setaf 0)
 RED=$(tput setaf 1)

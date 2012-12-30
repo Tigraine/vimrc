@@ -10,6 +10,7 @@ filetype plugin indent on
 set ts=2
 set sw=2
 "set number
+set number
 
 let $JS_CMD='node'
 
@@ -42,9 +43,9 @@ colorscheme vibrantink
 "	nmap <D-t> :CommandT<CR>
 "endif
 
-map <leader>c :s/^/#<CR>
+"map <leader>c :s/^/#<CR>
 
-let g:Tex_ViewRule_pdf = 'Preview'
+"let g:Tex_ViewRule_pdf = 'Preview'
 
 "autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
@@ -54,5 +55,7 @@ let g:Tex_ViewRule_pdf = 'Preview'
 :nnoremap <CR> :nohlsearch<cr>
 
 :imap <c-j> <%=
-:imap <c-k> <space>%>
+:imap <c-k> %>
 :imap <c-l> <space>=><space>
+
+:map <leader>t :w<CR>:! rspec spec<CR>
